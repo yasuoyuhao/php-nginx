@@ -1,4 +1,4 @@
-FROM php:7.4-fpm
+FROM php:5.5-fpm
 
 RUN apt-get update -y \
     && apt-get install -y nginx
