@@ -23,3 +23,7 @@ WORKDIR /var/www/mysite
 
 EXPOSE 80 443
 ```
+
+you can go to `[examples](https://github.com/yasuoyuhao/php-nginx/examples)` find example.
+
+if you have any questions please commit [issues](https://github.com/yasuoyuhao/php-nginx/issues)
