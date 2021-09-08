@@ -23,3 +23,10 @@ WORKDIR /var/www/mysite
 
 EXPOSE 80 443
 ```
+
+you can go to [examples](https://github.com/yasuoyuhao/php-nginx/tree/master/examples) find example.
+`cd examples && docker build -t php-nginx .`
+`docker run -dp 8080:80 php-nginx`
+and open your bowser enter `localhost:8080`
+
+if you have any questions please commit [issues](https://github.com/yasuoyuhao/php-nginx/issues)
